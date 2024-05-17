@@ -1,0 +1,50 @@
+body{
+
+    max-height: 40vh;
+}
+
+.tableBox{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading2{
+
+    text-align: center;
+    font-size: 35px;
+    color: rgba(27, 27, 27, 0.822);
+    margin: 50px 0px 40px;
+
+}
+
+table{
+
+    width: 80%;
+    min-height: 100vh;
+    text-align: center;
+    /* border: 1px solid black; */
+    
+}
+table tr th{
+    border: 1px solid rgba(0, 0, 0, 0.705);
+    font-size: 21px;
+    font-weight: 600;
+    border-radius: 3px;
+}
+table tr td{
+    
+    border: 1px solid black;
+    padding: 10px 10px;
+    font-size: 19px;
+    font-weight: 600;
+    border-radius: 2px;
+}
+
+table tr td img{
+
+    height: 100px;
+    width: 100px;
+    border-radius: 20%;
+
+}

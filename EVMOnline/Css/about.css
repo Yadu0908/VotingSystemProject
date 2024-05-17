@@ -1,0 +1,114 @@
+.new-page{
+    height: 1650px;
+    margin: 0px 60px;
+    border: 1px solid black;
+
+}
+
+.poster{
+
+    text-align: center;
+    justify-content: center;
+}
+
+.poster img{
+
+    height: 450px;
+    width: 700px;
+    
+}
+
+.poster p{
+
+    font-size: 50px;
+    color: rgb(27, 27, 27);
+    font-weight: 700;
+    left: 52%;
+    transform:translate(-50%, -50%);
+    position: absolute;
+}
+
+.card{
+
+
+    border-top: 0;
+    display: flex;
+    padding-top: 200px;
+}
+.card div{
+
+    background-color: rgba(231, 231, 231, 0.877);
+    /* border: 1px solid red; */
+    margin: 0 10px;
+    margin-bottom: 80px;
+    padding: 30px 20px;
+    border-radius: 5px;
+}
+
+.card div img{
+
+    height: 120px;
+    width: 120px;
+    
+}
+
+.card div h2{
+
+    font-size: 34px;
+    margin: 10px 0px;
+    color: rgb(27, 27, 27);
+}
+
+.card div p{
+
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.page2{
+
+    /* border: 1px solid red; */
+    display: flex;
+    padding: 20px 20px;
+    margin: 0px 10px;
+    background-color: rgba(231, 231, 231, 0.877);
+    border-radius: 5px;
+
+}
+
+.page2 h2{
+
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: rgb(32, 32, 32);
+}
+
+.page2 img{
+
+    height: 100px;
+    width: 100px;
+}
+
+.page2 p{
+
+    width: 60%;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.page2 .left{
+
+    width: 100%;
+}
+
+.page2 .left textarea{
+
+    margin: 10px 0;
+    font-size: 17px;
+    border-radius: 5px;
+    outline: none;
+
+}
+

@@ -1,0 +1,146 @@
+body{
+
+    max-height: 25vh;
+}
+
+
+#headerSection{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 60px;
+    margin: 10px 0px;
+
+}
+
+h1{
+
+    text-align: center;
+    margin-top: 90px;
+}
+
+.box{
+
+    height: 60vh;
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    margin-top: 40px;
+    
+}
+
+#profile{
+
+    width: 40%;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 80%;
+    /* box-shadow: 0px 0px 5px black; */
+}
+
+#profile h2{
+    
+    text-align: center;
+    
+}
+
+#profile ul {
+    
+    list-style: none;
+}
+#profile ul li{
+    
+    font-size: 22px;
+    padding: 0px 10px;
+    margin: 30px 0px;
+}
+
+
+#group{
+    
+    width: 60%;
+    border: 1px solid black;
+    border-radius: 5px;
+    /* box-shadow: 1px 2px 5px black; */
+    height: 80%;
+    margin-left: 10px;
+    display: inline;
+    padding: 20px 30px;
+}
+
+#group {
+
+    font-size: 22px;
+}
+
+#group select{
+
+    height: 30px;
+    width: 40%;
+    background: transparent;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#partyImage{
+
+    margin-top: 30px;
+    height: 150px;
+    width: 170px;
+}
+
+#btn{
+
+    margin-top: 15px;
+    font-size: 16px;
+    background-color: rgba(240, 248, 255, 0.027);
+}
+
+#btn:hover{
+
+    background-color: rgb(20, 20, 20);
+    border: none;
+    color: white;
+}
+
+/* Add this CSS to your existing stylesheet or create a new one */
+
+/* Style for disabled button */
+button:disabled {
+    cursor: not-allowed;
+    opacity: 0.4; /* Reduce opacity for disabled effect */
+    /* Add any other styles for disabled button here */
+    border: 1px solid black;
+}
+
+/* Override hovering effect for disabled button */
+button:disabled:hover {
+    background-color: transparent; /* Keep the original background color */
+    color: inherit; /* Keep the original text color */
+    /* Add any other styles for disabled button on hover here */
+}
+
+#logOut{
+
+    width: 170px;
+    height: 40px;
+    font-size: 18px;
+    margin-top: 20px;
+    position: absolute;
+    left: 82%;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 600;
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.795);
+    user-select: none;
+    transition: all 0.2s linear;
+}
+
+#logOut:hover{
+
+    background-color: rgb(20, 20, 20);
+    border: none;
+    color: white;
+}
